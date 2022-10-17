@@ -1,0 +1,133 @@
+.container {
+
+  margin: 1rem 0;
+	bottom: 1rem;
+
+}
+
+
+.discountMessage {
+
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
+
+}
+
+.containerShelf {
+
+  max-width: 1280px;
+  margin: 0.3rem auto;
+	margin-bottom: 3rem;
+	padding: 2rem;
+
+}
+
+.shelfItem {
+
+	margin: 0 0.2rem;
+	width: 100%;
+
+}
+
+.shelfTitle {
+	width: auto;
+	margin-bottom: 0;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+	text-align: center;
+	font-size: 2rem;
+	color: #000;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.shelfLink {
+
+	text-decoration: inherit;
+
+}
+
+.shelfImage {
+
+	position: relative;
+	background-color: #f7f7f7;
+	
+}
+
+.shelfProductName {
+
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1rem;
+	letter-spacing: 0.35px;
+	font-size: 0.9rem;
+	font-weight: 300;
+	text-shadow: rgba(0, 0, 0, 0.2) 0 0 1px;
+	color: #000;
+	line-height: inherit;
+
+}
+
+.shelfPrice {
+	display: flex;
+	margin-right: 10px;
+	align-items: center;
+	justify-content: center;
+}
+
+.imgShelf {
+	cursor: pointer;
+}
+
+.shelfImage__img {
+
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	max-height: 300px;
+
+}
+
+.shelfSellingPrice {
+	
+	margin-top: 0;
+	color: #000;
+	font-size: 0.9rem;
+	font-weight: 400;
+	margin-right: 0.5rem;
+	text-decoration: line-through;
+
+}
+
+.shelfBestPrice {
+
+	margin-top: 0.1rem;
+	font-weight: 500;
+	color: #3f3f40;
+	font-size: 1.25rem;
+	line-height: 1.1rem;
+
+}
+
+.shelfButtonAddToCart {
+
+	text-align: center;
+	background-color: #0f3e99;
+	color: #fff;
+	border-radius: 0.25rem;
+	padding: 10px 0;
+	width: 95%;
+	margin: 0 auto;
+	cursor: pointer;
+	font-family: arial, sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0;
+
+	@media screen and (max-width: 600px) {
+		width: 80%;
+	}
+}
+
+
